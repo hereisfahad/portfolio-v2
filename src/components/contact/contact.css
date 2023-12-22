@@ -1,0 +1,25 @@
+.MuiFormLabel-root {
+  color: #fff !important;
+}
+.MuiInput-underline:before {
+  border-color: #ffffff !important;
+}
+.MuiInput-underline:after {
+  border-color: #ffffff !important;
+}
+.Mui-focused {
+  color: #ffffff !important;
+}
+.MuiInputBase-inputMultiline {
+  color: #80c2ff !important;
+}
+.MuiInputBase-input {
+  color: #80c2ff !important;
+}
+
+.MuiCheckbox-root {
+  color: #80c2ff !important;
+}
+.MuiFormControlLabel-asterisk {
+  opacity: 0.5 !important;
+}

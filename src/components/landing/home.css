@@ -1,0 +1,53 @@
+.line {
+  width: 1px;
+  position: absolute;
+  animation: line 12.3s linear infinite;
+}
+
+@keyframes line {
+  0% {
+    transform: rotate(315deg) translateX(-100%);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(315deg) translateX(-1000px);
+  }
+}
+
+.line::before {
+  /* add colored dots at the end of the line 4x4px */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 500px;
+  height: 2px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, #393c46, transparent);
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+.bg_1::after {
+  background-color: #ff4290;
+}
+.bg_2::after {
+  background-color: #08c3ca;
+}
+.bg_3::after {
+  background-color: #365bc3;
+}
+.bg_4::after {
+  background-color: #3a5fc5;
+}
