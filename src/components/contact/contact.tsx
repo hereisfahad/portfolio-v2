@@ -39,7 +39,7 @@ const Contact = () => {
     const event = e as any;
 
     try {
-      await fetch(`${process.env.NEXT_PUBLIC_SEND_EMAIL_URL}/send`, {
+      await fetch(`${process.env.NEXT_PUBLIC_SEND_EMAIL_URL}/send-email`, {
         method: "POST",
         body: JSON.stringify({
           name: event.target[0].value,
