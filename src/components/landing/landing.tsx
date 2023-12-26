@@ -7,8 +7,9 @@ import CustomButton from "../reusable/button";
 import ScrollDown from "../../../public/assets/svg/ScrollDownArrow";
 import LinkedIn from "../../../public/assets/svg/LinkedIn";
 import Github from "../../../public/assets/svg/Github";
+import Upwork from "../../../public/assets/svg/upwork.svg";
 import useBlockRef from "@/hooks/useBlockRef";
-import "./home.css";
+import Image from "next/image";
 
 const HomePage = () => {
   const [width, setWidth] = useState(0);
@@ -41,6 +42,14 @@ const HomePage = () => {
             </Link>
             <Link href="https://github.com/hereisfahad" target="_blank">
               <Github className="animate-glow rounded-sm hover:cursor-pointer" />
+            </Link>
+            <Link href="https://www.upwork.com/freelancers/~01c273f857bf8bb29d" className="animate-glow rounded-sm hover:cursor-pointer" target="_blank">
+              <Image
+                alt="Upwork icon"
+                src={"./assets/svg/upwork.svg"}
+                width={24}
+                height={24}
+              />
             </Link>
           </div>
 
