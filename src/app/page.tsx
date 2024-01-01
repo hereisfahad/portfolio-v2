@@ -9,6 +9,7 @@ import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/footer";
 import TabBar from "@/components/tabBar/tabBar";
 import AccordionOpenContext from "@/context/AccordionContext";
+import ParticleEffect from "@/components/ParticleEffect";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Contact />
         <Footer />
         <TabBar />
+        <ParticleEffect />
       </AccordionOpenContext>
     </main>
   );
