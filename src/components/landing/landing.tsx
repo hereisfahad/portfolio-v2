@@ -33,7 +33,7 @@ const HomePage = () => {
     <div>
       <div className="flex flex-1 relative w-full h-screen overflow-hidden flex-col">
         <div className="h-screen w-[100%] flex flex-col justify-center flex-1 max-w-[1000px] self-center mx-auto items-center text-center text-text_white z-100 relative">
-          <div className="absolute top-[45%] left-0 flex flex-col gap-5 ml-5">
+          <div className="absolute top-[30%] left-0 flex flex-col gap-5 ml-5">
             <Link
               href="https://www.linkedin.com/in/mrfahadjabbar/"
               target="_blank"

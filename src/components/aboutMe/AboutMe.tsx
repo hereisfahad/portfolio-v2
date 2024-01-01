@@ -35,7 +35,7 @@ const AboutMe = () => {
         </div>
         {/* about me */}
         <div className="flex flex-1 flex-col">
-          <div className="mt-[48px]">
+          <div className="mt-[60px] sm:mt-[48px]">
             <p className="text-text_gray px-[2rem] sm:px-[0] text-[16px] font-[500] leading-[160%]">
               Hey there! I'm Fahad Jabbar, an enthusiastic full-stack software developer with over three years of hands-on experience. Throughout my journey, I've successfully completed more than 5 diverse projects, showcasing my skills in crafting robust and innovative solutions for various clients and industries. Constantly seeking opportunities to expand my knowledge, I've honed my expertise in software architecture to deliver high-quality, scalable, and efficient solutions. Join me in navigating the ever-evolving tech landscape!
             </p>
