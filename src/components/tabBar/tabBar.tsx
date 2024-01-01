@@ -25,31 +25,31 @@ const TabBar = () => {
   });
 
   const autoTabBarActiveControl = () => {
-    const heightoffset = 200;
+    const heightOffset = 200;
 
-    if (height >= 0 && height < itemsHeight.aboutMe - heightoffset) {
+    if (height >= 0 && height < itemsHeight.aboutMe - heightOffset) {
       setActive(0);
     } else if (
-      height >= itemsHeight.aboutMe - heightoffset &&
-      height < itemsHeight.skills - heightoffset
+      height >= itemsHeight.aboutMe - heightOffset &&
+      height < itemsHeight.skills - heightOffset
     ) {
       setActive(1);
     } else if (
-      height >= itemsHeight.skills - heightoffset &&
-      height < itemsHeight.employment - heightoffset
+      height >= itemsHeight.skills - heightOffset &&
+      height < itemsHeight.employment - heightOffset
     ) {
       setActive(2);
     } else if (
-      height >= itemsHeight.employment - heightoffset &&
-      height < itemsHeight.portfolio - heightoffset
+      height >= itemsHeight.employment - heightOffset &&
+      height < itemsHeight.portfolio - heightOffset
     ) {
       setActive(3);
     } else if (
-      height >= itemsHeight.portfolio - heightoffset &&
-      height < itemsHeight.contact - heightoffset
+      height >= itemsHeight.portfolio - heightOffset &&
+      height < itemsHeight.contact - heightOffset
     ) {
       setActive(4);
-    } else if (height >= itemsHeight.contact - heightoffset) {
+    } else if (height >= itemsHeight.contact - heightOffset) {
       setActive(5);
     } else {
       setActive(0);
