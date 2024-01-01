@@ -2,14 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import CustomButton from "../reusable/button";
 import ScrollDown from "../../../public/assets/svg/ScrollDownArrow";
 import LinkedIn from "../../../public/assets/svg/LinkedIn";
 import Github from "../../../public/assets/svg/Github";
-import Upwork from "../../../public/assets/svg/upwork.svg";
 import useBlockRef from "@/hooks/useBlockRef";
-import Image from "next/image";
 
 const HomePage = () => {
   const [width, setWidth] = useState(0);

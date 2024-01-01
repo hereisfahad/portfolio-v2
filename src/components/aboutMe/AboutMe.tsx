@@ -15,7 +15,6 @@ const AboutMe = () => {
       className="flex flex-col max-w-[1000px] mx-auto pt-[25px] md:pt-[100px]"
     >
       <div className="w-full">
-        <h5 className="text-center text-text_white font-[500]">Get to know</h5>
         <h2 className="text-center mt-3 text-text_blue font-[600] text-[32px]">
           ABOUT ME
         </h2>

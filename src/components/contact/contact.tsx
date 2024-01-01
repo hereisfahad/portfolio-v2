@@ -66,7 +66,6 @@ const Contact = () => {
       ref={blockRef}
       className="flex p-[1rem] md:p-[0px] flex-col max-w-[1000px] items-center text-center mt-[80px] md:mt-[160px] mx-auto text-text_white"
     >
-      <h3 className="font-[500] text-[16px]">Get in Touch</h3>
       <h2 className="text-[32px] font-[600] uppercase mt-[12px] text-text_blue">
         Contact me
       </h2>

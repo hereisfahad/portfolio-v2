@@ -64,7 +64,6 @@ const Portfolio = () => {
       ref={blockRef}
       className="flex flex-col max-w-[1000px] items-center text-center mt-[80px] md:mt-[160px] mx-auto text-text_white"
     >
-      <h3 className="font-[500] text-[16px]">My Recent Work</h3>
       <h2 className="text-[32px] font-[600] uppercase mt-[12px] text-text_blue">
         Portfolio
       </h2>
