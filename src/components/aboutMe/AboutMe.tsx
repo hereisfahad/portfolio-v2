@@ -22,7 +22,7 @@ const AboutMe = () => {
       <div className="md:flex md:w-full md:mt-[65px] md:flex-row flex flex-col w-full mt-[35px]">
         {/* avatar */}
         <div className="flex relative md:mr-[60px] mt-[16px] md:self-start mx-auto">
-          <div className="before:block before:content-[''] before:rounded-full before:ml-[30%] before:w-[15px] before:h-[15px] before:bg-circle_avatar_bg z-80 absolute top-[0px] left-[0px] border-[1px] rounded-[50%] w-full h-full animate-circle_rotation"></div>
+          <div className="before:block before:content-[''] before:rounded-full z-80 absolute top-[0px] left-[0px] border-[1px] rounded-[50%] w-full h-full"></div>
           <Image
             className="z-100 p-[1rem] rounded-full"
             alt="Picture of the author"
@@ -30,7 +30,6 @@ const AboutMe = () => {
             width={306}
             height={306}
           />
-          <div className="z-90 w-full h-full rounded-full bg-circle_avatar_underlay_bg  absolute top-[15%] left-[5%]"></div>
         </div>
         {/* about me */}
         <div className="flex flex-1 flex-col">

@@ -57,7 +57,6 @@ module.exports = {
       },
       animation: {
         glow: "glow 1s infinite alternate",
-        circle_rotation: "circle_rotate 10s infinite linear",
       },
       keyframes: {
         glow: {
